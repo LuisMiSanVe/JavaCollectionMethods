@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package dam1sanchezvega_luismiguel_ej090710_varios;
+package javacollectionmethods;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,7 +11,7 @@ import java.util.Collections;
  *
  * @author alumnom
  */
-public class DAM1SanchezVega_LuisMiguel_Ej090710_Varios {
+public class JavaCollectionMethods {
 
     /**
      * @param args the command line arguments
