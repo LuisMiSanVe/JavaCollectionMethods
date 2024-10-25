@@ -17,17 +17,17 @@ public class JavaCollectionMethods {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Creamos Arrays y Listas para probar los métodos vistos
+        // Initialize the collections to work with
         ArrayList<Integer> arrl = new ArrayList<>(10);
         Integer[] arr = new Integer[10];
         
         // ADD-ALL
-        // Metemos elementos al array
+        // Set the elements to the array
         for(int i=0;i<arr.length;i++){
             arr[i] = (int) (Math.round(Math.random()*10));
         }
-        // Mostramos los elementos de cada conjunto antes y después
-        System.out.println("ANTES DEL ADD-ALL");
+        // Show array's content before and after
+        System.out.println("BEFORE ADD-ALL");
         System.out.println("Array------------");
         for(Integer i:arr){System.out.print(i + ", ");}
         System.out.println("\nArrayList--------");
@@ -35,7 +35,7 @@ public class JavaCollectionMethods {
         
         Collections.addAll(arrl, arr);
         
-        System.out.println("DESPUÉS DEL ADD-ALL");
+        System.out.println("AFTER ADD-ALL");
         System.out.println("Array------------");
         for(Integer i:arr){System.out.print(i + ", ");}
         System.out.println("\nArrayList--------");
@@ -44,22 +44,22 @@ public class JavaCollectionMethods {
         System.out.println("");
         
         // SHUFFLE
-        // Mostramos los elementos de cada conjunto antes y después
-        System.out.println("\nANTES DEL SHUFFLE");
+        // Show array's content before and after
+        System.out.println("\nBEFORE SHUFFLE");
         System.out.println("ArrayList--------");
         for(Integer i:arrl){System.out.print(i + ", ");}
         
         Collections.shuffle(arrl);
         
-        System.out.println("\nDESPUÉS DEL SHUFFLE");
+        System.out.println("\nAFTER SHUFFLE");
         System.out.println("ArrayList--------");
         for(Integer i:arrl){System.out.print(i + ", ");}
         
         System.out.println("");
         
         // FILL
-        // Mostramos los elementos de cada conjunto antes y después
-        System.out.println("\nANTES DE REEMPLAZAR CON FILL");
+        // Show array's content before and after
+        System.out.println("\nBEFORE FILL");
         System.out.println("Array------------");
         for(Integer i:arr){System.out.print(i + ", ");}
         System.out.println("\nArrayList--------");
@@ -68,7 +68,7 @@ public class JavaCollectionMethods {
         Arrays.fill(arr,5);
         Collections.fill(arrl, 5);
         
-        System.out.println("\nDESPUÉS DE REEMPLAZAR CON FILL");
+        System.out.println("\nAFTER FILL");
         System.out.println("Array------------");
         for(Integer i:arr){System.out.print(i + ", ");}
         System.out.println("\nArrayList--------");
@@ -77,8 +77,8 @@ public class JavaCollectionMethods {
         System.out.println("");
         
         // BINARY-SEARCH        
-        // Si sale positivo ha encontrado el número y si es negativo no lo ha encontrado
-        System.out.println("\nBUSQUEDA CON BINARYSEARCH");
+        // If possitive, the number is found, if negative, it isn't
+        System.out.println("\nBINARYSEARCH");
         System.out.println("Array------------");
         System.out.print(Arrays.binarySearch(arr, (int) (Math.round(Math.random()*10))));
         System.out.println("\nArrayList--------");
@@ -88,9 +88,9 @@ public class JavaCollectionMethods {
         
         // AS-LIST
         ArrayList<Integer> lista = new ArrayList<>(Arrays.asList(arr));
-        System.out.println("\nARRAY CONVERTIDO EN ARRAYLIST CON ASLIST");
+        System.out.println("\nARRAY CONVERTED INTO ARRAYLIST WITH ASLIST");
         for(Integer i:lista){System.out.print(i + ", ");}
-        // Devuelvo la clase a la que pertenece para comprobarlo
+        // Return the class to check the change
         System.out.println("\n" + lista.getClass());
         
         System.out.println("");
@@ -98,49 +98,49 @@ public class JavaCollectionMethods {
         // TO-ARRAY
         Integer[] array = new Integer[10];
         arrl.toArray(array);
-        System.out.println("\nARRAYLIST CONVERTIDO EN ARRAY CON TOARRAY");
+        System.out.println("\nARRAYLIST CONVERT INTO ARRAY WITH TOARRAY");
         for(Integer i:lista){System.out.print(i + ", ");}
-        // Devuelvo la clase a la que pertenece para comprobarlo
+        // Return the class to check the change
         System.out.println("\n" + array.getClass());
         
         System.out.println("");
         
         // REVERSE
-        // Reemplazo los elementos de los conjuntos
+        // Replace collection's elements
         arrl.clear();
         for(int i = 0 ; i<=10;i++){
             arrl.add((int) (Math.round(Math.random()*10)));
         }
-        System.out.println("\nANTES DE DARLE LA VUELTA CON REVERSE");
+        System.out.println("\nBEFORE REVERSE");
         System.out.println("ArrayList--------");
         for(Integer i:arrl){System.out.print(i + ", ");}
         
         Collections.reverse(arrl);
         
-        System.out.println("\nDESPUÉS DE DARLE LA VUELTA CON REVERSE");
+        System.out.println("\nAFTER REVERSE");
         System.out.println("ArrayList--------");
         for(Integer i:arrl){System.out.print(i + ", ");}
         
         System.out.println("");
         
         // SPLIT
-        // Creamos el String y el Array
-        String cadenaJunta = "Elemento1/Elemento2/Elemento3";
+        // Initialize String and the array
+        String cadenaJunta = "Element1/Element2/Element3";
         String[] arrCadenaSeparada = cadenaJunta.split("/");
-        System.out.println("\nCADENA ORIGINAL");
+        System.out.println("\nORIGINAL STRING");
         System.out.println(cadenaJunta);
-        System.out.println("CADENA SEPARADA EN UN ARRAY CON SPLIT");
+        System.out.println("STRING CONVERT INTO ARRAY WITH SPLIT");
         for(String i:arrCadenaSeparada){System.out.print(i + ", ");}
         
         System.out.println("");
         
         // JOIN
-        // Creamos el Array y el String
-        String[] arrCadenaJunta = {"Dato1","Dato2","Dato3"};
+        // Initialize the array and the String
+        String[] arrCadenaJunta = {"Data1","Data2","Data3"};
         String cadenaSeparada = String.join("/", arrCadenaJunta);
-        System.out.println("\nARRAY ORIGINAL");
+        System.out.println("\nORIGINAL ARRAY");
         for(String i:arrCadenaJunta){System.out.print(i + ", ");}
-        System.out.println("\nARRAY JUNTO EN UN STRING CON JOIN");
+        System.out.println("\nARRAY CONVERT INTO STRING WITH JOIN");
         System.out.println(cadenaSeparada);
         
         System.out.println("");
