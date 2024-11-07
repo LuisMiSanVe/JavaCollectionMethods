@@ -4,5 +4,5 @@ Java class with some of the main Methods to work with Collections.
 > This was made back then when I was learning Java basics.
 
 ## 💻 Technologies Used
-- **Programming Language:** Java
-- **Recommended IDE:** Netbeans
+- Programming Language: [Java](https://www.java.com/)
+- Recommended IDE: [Netbeans](https://netbeans.apache.org/front/main/index.html)
