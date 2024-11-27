@@ -1,3 +1,4 @@
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/JavaCollectionMethods/tree/spanish)
 # ☕ Java Collection's Methods
 Java class with some of the main Methods to work with Collections.
 > [!NOTE]
