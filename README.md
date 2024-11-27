@@ -1,8 +1,9 @@
-# ☕ Java Collection's Methods
-Java class with some of the main Methods to work with Collections.
+> [Ver en ingles/See in English](https://github.com/LuisMiSanVe/JavaCollectionMethods/tree/main)
+# ☕ Métodos para Colecciones de Java
+Clase de Java con algunos de los métodos principales para trabajar con Colecciones.
 > [!NOTE]
-> This was made back then when I was learning Java basics.
+> Este repositorio se creó cuando apenas estudiaba las bases de Java.
 
-## 💻 Technologies Used
-- Programming Language: [Java](https://www.java.com/)
-- Recommended IDE: [Netbeans](https://netbeans.apache.org/front/main/index.html)
+## 💻 Tecnologías usadas
+- Lenguaje de programación: [Java](https://www.java.com/)
+- IDE Recomendado: [Netbeans](https://netbeans.apache.org/front/main/index.html)
