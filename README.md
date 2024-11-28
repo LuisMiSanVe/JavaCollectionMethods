@@ -4,7 +4,7 @@ Java class with some of the main Methods to work with Collections.
 > [!NOTE]
 > This was made back then when I was learning Java basics.
 
-The console program displays the effects of the different java Collection methods using an ArrayList and a standard array.
+The console program displays the effects of the different java Collection methods using an ArrayList and a standard array.\
 List of used methods:
 - addAll()
 - shuffle()
