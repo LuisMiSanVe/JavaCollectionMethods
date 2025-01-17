@@ -1,4 +1,4 @@
-> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/JavaCollectionMethods/tree/spanish)
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/JavaCollectionMethods/blob/main/README.es.md)
 # ☕ Java Collection's Methods
 [![image](https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white)](https://netbeans.apache.org/front/main/index.html)
 [![image](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
